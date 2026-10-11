@@ -1,6 +1,6 @@
 # DunkAPI examples
 
-Runnable examples for the [DunkAPI API](https://dunkapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
+Runnable examples for the [DunkAPI](https://dunkapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
 
 NBA, WNBA and college basketball data API. Every tool is a REST call: `POST https://mcp.dunkapi.com/v1/<tool_name>` with a JSON body and an `x-api-key` header. The same tools are available over MCP at `https://mcp.dunkapi.com/mcp`.
 
