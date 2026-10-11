@@ -1,0 +1,128 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/dunkapi",
+  "title": "DunkAPI",
+  "description": "NBA, WNBA and college basketball data: play-by-play, shot locations, box scores, odds. REST and MCP.",
+  "version": "1.1.4",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/noahowsh/dunkapi-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://github.com/noahowsh/dunkapi-mcp/raw/main/assets/logo-400x400.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
+  "homepage": "https://dunkapi.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dunkapi.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your DunkAPI API key. Get a free key with 500 credits at dunkapi.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_teams",
+      "description": "Team ids, abbreviations and colours for a season",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_players",
+      "description": "Find players by name",
+      "readOnlyHint": true
+    },
+    {
+      "name": "list_games",
+      "description": "Games with scores by season, date, range or team",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schedule",
+      "description": "Upcoming games with the median line across sportsbooks",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_standings",
+      "description": "Standings from every final game: overall, conference, home, away, last 10",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_injuries",
+      "description": "The latest injury report: status, injury and expected return (NBA, WNBA)",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_ratings",
+      "description": "Our team Elo ratings, ranked",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_game",
+      "description": "One game: both box scores, every player's line, each book's line, win probability",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player",
+      "description": "Profile, per-season averages and shooting splits, last 10 games",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_games",
+      "description": "A player's full game log",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_leaders",
+      "description": "Season leaders per game, by percentage or in total",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_team_stats",
+      "description": "Pace, offensive, defensive and net rating, and the four factors",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_odds",
+      "description": "Every sportsbook's moneyline, spread and total for a game (5) or a day (10), with results against the line",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_plays",
+      "description": "Play-by-play with shot locations, zones, expected points and win probability",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_shot_chart",
+      "description": "Shot profile by zone for a player, team or defence, with every shot's x/y",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_line_movement",
+      "description": "Snapshots of each sportsbook's line before tip-off",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_props",
+      "description": "Player prop lines by sportsbook, opening and closing",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_prop_history",
+      "description": "A player's prop lines against the result, game by game",
+      "readOnlyHint": true
+    }
+  ]
+}
