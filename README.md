@@ -17,6 +17,16 @@ You:    "How often has Jalen Brunson gone over his points line this season?"
 Claude: [calls get_prop_history]
 ```
 
+## Skills
+
+[`skills/`](skills/) holds 16 free Claude skills that turn Claude into a basketball analyst for the NBA, WNBA and men's and women's college basketball. A skill is a markdown file: when to use it, which DunkAPI tools it calls and what they cost, the method (shot zones and expected points, pace and efficiency, rolling game logs, prop modeling, devigging, backtesting), and examples taken from real API responses.
+
+```bash
+git clone https://github.com/noahowsh/dunkapi-mcp.git
+```
+
+Point Claude at the `skills/` folder, connect the MCP server below, and ask a question. Start with the `dispatch` skill if you are not sure which one applies. Skills also work on your own CSV or JSON files, with no key. Full list: [`skills/README.md`](skills/README.md).
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
@@ -99,6 +109,18 @@ Leagues: nba (default), wnba, ncaam, ncaaw (pass `league` to any tool).
 - Women's college basketball: opening and closing lines from November 2024 (a median of 4 books); no player props
 
 Coverage by season, read live from the database: https://dunkapi.com/docs
+
+## Useful pages
+
+- Live odds and lines: https://dunkapi.com/odds
+- Guides (Python, run against the live API): https://dunkapi.com/guides
+  - [NBA play-by-play](https://dunkapi.com/guides/nba-play-by-play-python), [shot chart by zone](https://dunkapi.com/guides/nba-shot-chart-by-zone-python), [backtest closing lines](https://dunkapi.com/guides/backtest-nba-closing-lines-python), [team pace and efficiency](https://dunkapi.com/guides/nba-pace-and-efficiency-by-team-pandas), [player game log and rolling average](https://dunkapi.com/guides/nba-player-game-log-rolling-average)
+- Docs and endpoint reference: https://dunkapi.com/docs
+- Coverage by season: https://dunkapi.com/docs/atlas
+- Datasets: https://dunkapi.com/data ([play-by-play](https://dunkapi.com/data/nba-play-by-play), [shot charts](https://dunkapi.com/data/nba-shot-chart-data), [odds history](https://dunkapi.com/data/nba-odds-history), [player props](https://dunkapi.com/data/player-props))
+- Pricing: https://dunkapi.com/pricing
+- Comparisons: [BallDontLie](https://dunkapi.com/compare/balldontlie), [nba_api and stats.nba.com](https://dunkapi.com/compare/nba-api-stats-nba), [Basketball Reference](https://dunkapi.com/compare/basketball-reference), [Sportradar](https://dunkapi.com/compare/sportradar), [SportsDataIO](https://dunkapi.com/compare/sportsdataio-nba)
+- Leagues: [WNBA](https://dunkapi.com/wnba), [men's college](https://dunkapi.com/college-basketball), [women's college](https://dunkapi.com/womens-college-basketball)
 
 ## Pricing
 
