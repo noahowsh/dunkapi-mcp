@@ -25,6 +25,15 @@ Claude: [calls get_prop_history]
 git clone https://github.com/noahowsh/dunkapi-mcp.git
 ```
 
+Or install them as a Claude Code plugin:
+
+```
+/plugin marketplace add noahowsh/dunkapi-mcp
+/plugin install dunkapi-skills@dunkapi
+```
+
+Or with the skills CLI: `npx skills add noahowsh/dunkapi-mcp`.
+
 Point Claude at the `skills/` folder, connect the MCP server below, and ask a question. Start with the `dispatch` skill if you are not sure which one applies. Skills also work on your own CSV or JSON files, with no key. Full list: [`skills/README.md`](skills/README.md).
 
 ## Quick start

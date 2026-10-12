@@ -1,0 +1,14 @@
+{
+  "name": "dunkapi",
+  "description": "Basketball analytics skills for Claude Code, wired to the DunkAPI MCP server",
+  "owner": {
+    "name": "DunkAPI"
+  },
+  "plugins": [
+    {
+      "name": "dunkapi-skills",
+      "source": "./",
+      "description": "16 basketball analytics and betting-model skills"
+    }
+  ]
+}
