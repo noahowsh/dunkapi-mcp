@@ -1,0 +1,11 @@
+{
+  "name": "dunkapi-skills",
+  "description": "16 Claude skills for basketball analytics and betting models with DunkAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "version": "1.0.0",
+  "author": {
+    "name": "DunkAPI"
+  },
+  "homepage": "https://dunkapi.com",
+  "repository": "https://github.com/noahowsh/dunkapi-mcp",
+  "license": "MIT"
+}
