@@ -122,6 +122,8 @@ Coverage by season, read live from the database: https://dunkapi.com/docs
 ## Useful pages
 
 - Live odds and lines: https://dunkapi.com/odds
+- Player props today (best price per player across books, live from the 2026-27 opener): https://dunkapi.com/props
+- Props guides: [points prop history](https://dunkapi.com/guides/nba-points-prop-history-python), [threes prop history](https://dunkapi.com/guides/nba-threes-prop-history-python)
 - Guides (Python, run against the live API): https://dunkapi.com/guides
   - [NBA play-by-play](https://dunkapi.com/guides/nba-play-by-play-python), [shot chart by zone](https://dunkapi.com/guides/nba-shot-chart-by-zone-python), [backtest closing lines](https://dunkapi.com/guides/backtest-nba-closing-lines-python), [team pace and efficiency](https://dunkapi.com/guides/nba-pace-and-efficiency-by-team-pandas), [player game log and rolling average](https://dunkapi.com/guides/nba-player-game-log-rolling-average)
 - Docs and endpoint reference: https://dunkapi.com/docs
