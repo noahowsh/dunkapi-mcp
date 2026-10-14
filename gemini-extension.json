@@ -1,0 +1,14 @@
+{
+  "name": "dunkapi",
+  "version": "1.0.0",
+  "description": "DunkAPI MCP server for NBA basketball data: schedules, results, stats and odds.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "dunkapi": {
+      "httpUrl": "https://mcp.dunkapi.com/mcp",
+      "headers": {
+        "x-api-key": "${DUNKAPI_API_KEY}"
+      }
+    }
+  }
+}

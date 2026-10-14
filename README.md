@@ -146,3 +146,28 @@ Basketball data from public ESPN data; sportsbook lines and player props from ES
 ## License
 
 MIT for the contents of this repository. Data terms as above.
+
+## Use with Codex
+
+Add this repo as a Codex plugin marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add noahowsh/dunkapi-mcp
+```
+
+Then open the plugin directory in Codex and install `dunkapi-skills` from the `dunkapi` marketplace. The plugin bundles the skills in `skills/` and the DunkAPI MCP server (https://mcp.dunkapi.com/mcp). Set your key first (free at https://dunkapi.com/signup):
+
+```bash
+export DUNKAPI_API_KEY=your_key
+```
+
+Codex sends it as a bearer token.
+
+## Use with Gemini CLI
+
+```bash
+export DUNKAPI_API_KEY=your_key
+gemini extensions install https://github.com/noahowsh/dunkapi-mcp
+```
+
+The extension adds the DunkAPI MCP server (https://mcp.dunkapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://dunkapi.com/signup.
