@@ -5,7 +5,22 @@
   "author": {
     "name": "DunkAPI"
   },
-  "homepage": "https://dunkapi.com",
+  "homepage": "https://dunkapi.com/skills",
   "repository": "https://github.com/noahowsh/dunkapi-mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "DunkAPI Skills",
+  "documentationUrl": "https://dunkapi.com/docs",
+  "privacyPolicyUrl": "https://dunkapi.com/privacy",
+  "termsOfServiceUrl": "https://dunkapi.com/terms",
+  "supportUrl": "mailto:support@dunkapi.com",
+  "keywords": [
+    "basketball",
+    "nba",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "dunkapi"
+  ]
 }
