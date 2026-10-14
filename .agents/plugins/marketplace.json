@@ -1,0 +1,20 @@
+{
+  "name": "dunkapi",
+  "interface": {
+    "displayName": "DunkAPI Skills"
+  },
+  "plugins": [
+    {
+      "name": "dunkapi-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

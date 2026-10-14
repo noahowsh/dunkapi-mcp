@@ -1,0 +1,37 @@
+{
+  "name": "dunkapi-skills",
+  "version": "1.0.0",
+  "description": "16 Claude skills for basketball analytics and betting models with DunkAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "author": {
+    "name": "DunkAPI",
+    "url": "https://dunkapi.com"
+  },
+  "homepage": "https://dunkapi.com/skills",
+  "repository": "https://github.com/noahowsh/dunkapi-mcp",
+  "license": "MIT",
+  "keywords": [
+    "basketball",
+    "nba",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "dunkapi"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "DunkAPI Skills",
+    "shortDescription": "NBA basketball data and betting-model skills",
+    "longDescription": "Skills and a remote MCP server for NBA basketball analytics with DunkAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+    "developerName": "DunkAPI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://dunkapi.com",
+    "privacyPolicyURL": "https://dunkapi.com/privacy",
+    "termsOfServiceURL": "https://dunkapi.com/terms"
+  }
+}
