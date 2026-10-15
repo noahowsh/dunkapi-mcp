@@ -36,6 +36,31 @@ Or with the skills CLI: `npx skills add noahowsh/dunkapi-mcp`.
 
 Point Claude at the `skills/` folder, connect the MCP server below, and ask a question. Start with the `dispatch` skill if you are not sure which one applies. Skills also work on your own CSV or JSON files, with no key. Full list: [`skills/README.md`](skills/README.md).
 
+## Python
+
+The official Python client is on PyPI: [dunkapi](https://pypi.org/project/dunkapi/).
+
+```bash
+pip install dunkapi
+export DUNKAPI_API_KEY=sk_live_...
+```
+
+```python
+from dunkapi import Client, to_dataframe
+
+client = Client()
+
+props = client.get_player_props(
+    game_id="401810726",
+    market="player_points",
+    bookmaker="draftkings",
+)
+df = to_dataframe(props, key="props")
+print(df[["player_name", "line", "over_odds", "under_odds"]].head(10))
+```
+
+Typed errors for a bad key, no credits left, not found and rate limits, automatic retries, and `to_dataframe` for pandas.
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
