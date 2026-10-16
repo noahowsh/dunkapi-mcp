@@ -3,7 +3,7 @@
   "name": "io.github.noahowsh/dunkapi",
   "title": "DunkAPI",
   "description": "NBA, WNBA and college basketball data: play-by-play, shot locations, box scores, odds. REST and MCP.",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/noahowsh/dunkapi-mcp",

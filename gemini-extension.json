@@ -1,6 +1,6 @@
 {
   "name": "dunkapi",
-  "version": "1.0.0",
+  "version": "1.1.6",
   "description": "DunkAPI MCP server for NBA basketball data: schedules, results, stats and odds.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
