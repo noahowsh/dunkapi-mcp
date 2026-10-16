@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.noahowsh/dunkapi",
   "title": "DunkAPI",
-  "description": "NBA, WNBA and college basketball data: play-by-play, shot locations, box scores, odds. REST and MCP.",
+  "description": "NBA player props by sportsbook since 2023, plus play-by-play, shot locations and odds. REST and MCP.",
   "version": "1.1.6",
   "license": "MIT",
   "repository": {
@@ -26,7 +26,7 @@
       "headers": [
         {
           "name": "x-api-key",
-          "description": "Your DunkAPI API key. Get a free key with 500 credits at dunkapi.com/signup",
+          "description": "Your DunkAPI API key. Get a free key (500 credits every month) at dunkapi.com/signup",
           "isRequired": true,
           "isSecret": true
         }
