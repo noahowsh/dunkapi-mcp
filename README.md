@@ -17,6 +17,22 @@ You:    "How often has Jalen Brunson gone over his points line this season?"
 Claude: [calls get_prop_history]
 ```
 
+
+## Run it locally (stdio)
+
+Most clients connect to `https://mcp.dunkapi.com/mcp` directly. For a client that launches a local process instead:
+
+```bash
+git clone https://github.com/noahowsh/dunkapi-mcp.git && cd dunkapi-mcp && npm install
+DUNKAPI_API_KEY=your_key node index.js
+```
+
+```json
+{ "mcpServers": { "dunkapi": { "command": "node", "args": ["/path/to/dunkapi-mcp/index.js"], "env": { "DUNKAPI_API_KEY": "your_key" } } } }
+```
+
+It forwards to the hosted server with your key, so every tool and credit cost is the same.
+
 ## Skills
 
 [`skills/`](skills/) holds 16 free Claude skills that turn Claude into a basketball analyst for the NBA, WNBA and men's and women's college basketball. A skill is a markdown file: when to use it, which DunkAPI tools it calls and what they cost, the method (shot zones and expected points, pace and efficiency, rolling game logs, prop modeling, devigging, backtesting), and examples taken from real API responses.
