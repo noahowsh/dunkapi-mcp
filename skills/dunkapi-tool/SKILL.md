@@ -35,7 +35,7 @@ Over REST, every response is wrapped: `{"data": {...}}`. Read `response["data"][
 - `season` is the year the season ends: `2026` = 2025-26, `2027` = 2026-27. WNBA seasons are the calendar year.
 - `season_type`: `regular`, `postseason`, `play_in`, `preseason`.
 - Dates are `YYYY-MM-DD` in US Eastern time.
-- Game ids are ESPN game ids (strings like `"401859967"`). Player ids are ESPN athlete ids (like `"3934672"`). Teams take an id or an abbreviation (`NY`, `BOS`, `GS`, `SA`).
+- Game ids are strings (like `"401859967"`). Player ids are strings (like `"3934672"`). Teams take an id or an abbreviation (`NY`, `BOS`, `GS`, `SA`).
 - Paged tools return `next_offset`; pass it back as `offset`.
 
 ## The 18 tools

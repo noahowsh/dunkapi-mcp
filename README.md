@@ -154,7 +154,7 @@ Leagues: nba (default), wnba, ncaam, ncaaw (pass `league` to any tool).
 - NBA games since 2003-04 with play-by-play and shot locations (x/y, zone, expected points, win probability)
 - The WNBA and men's and women's Division I college basketball through the same tools
 - Team Elo ratings, standings from every final game, injury report (NBA, WNBA)
-- Per-sportsbook moneylines, spreads and totals: 4 to 12 books per regular-season NBA game from 2013-14 to 2023-24 (10 to 12 from 2020-21), plus opening and closing lines from The Odds API since July 2020 (a median of 7 books per NBA game in 2020-21 to 2022-23, 8 since); pre-game line snapshots from launch: ESPN's once a day, The Odds API's every hour for games in the next two days
+- Per-sportsbook moneylines, spreads and totals: 4 to 12 books per regular-season NBA game from 2013-14 to 2023-24 (10 to 12 from 2020-21), plus opening and closing lines since July 2020 (a median of 7 books per NBA game in 2020-21 to 2022-23, 8 since); pre-game line snapshots from launch: once a day, and every hour for games in the next two days
 - Player prop lines by sportsbook (points, rebounds, assists, threes, points + rebounds + assists, blocks, steals) from May 2023 for the NBA and WNBA and from the 2023-24 season for men's college basketball, with the result against each line (`get_player_props`, `get_prop_history`)
 - Women's college basketball: opening and closing lines from November 2024 (a median of 4 books); no player props
 
@@ -182,7 +182,7 @@ Coverage by season, read live from the database: https://dunkapi.com/docs
 
 ## Attribution
 
-Basketball data from public ESPN data; sportsbook lines and player props from ESPN and The Odds API. Ratings are ours. Not affiliated with the NBA, WNBA, NCAA or any team.
+Ratings are ours. Not affiliated with the NBA, WNBA, NCAA or any team.
 
 ## License
 

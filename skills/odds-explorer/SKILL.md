@@ -49,9 +49,9 @@ You find the best available price, show what each book charges, and read line mo
 
 ## Coverage and What a Line Is
 
-- Per-book moneyline, spread and total with opening and closing values. Opening and closing per book come from The Odds API from July 2020 and from ESPN from 2023-24; before that, only ESPN's final line. Check https://dunkapi.com/docs/atlas for coverage by season and league before promising history.
+- Per-book moneyline, spread and total with opening and closing values. Opening and closing per book are available from July 2020; before that, only a final line. Check https://dunkapi.com/docs/atlas for coverage by season and league before promising history.
 - Women's college lines start November 2024, with fewer books.
-- Pre-game snapshots: ESPN's once a day, The Odds API's every hour for games in the next two days. That sets the resolution of `get_line_movement`: you can see a half-point move across hours or days, not a 90-second steam move.
+- Pre-game snapshots: once a day, and every hour for games in the next two days. That sets the resolution of `get_line_movement`: you can see a half-point move across hours or days, not a 90-second steam move.
 - Books appear under their display names in `get_odds` and `get_line_movement` (`DraftKings`, `FanDuel`, `ESPN BET`, `Pinnacle`, `BetMGM`, `Bovada`, `BetOnline`, `MyBookie` in the live call below). Prop calls use lowercase keys (`draftkings`); do not mix them.
 - Preseason games can have one book and no moneyline. Say so; one book is not a market.
 

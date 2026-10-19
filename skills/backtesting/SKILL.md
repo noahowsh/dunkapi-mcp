@@ -47,7 +47,7 @@ A backtest answers one narrow question: given the closing lines we have, what wo
 
 ## Coverage Limits to State Up Front
 
-- Per-book opening and closing lines: The Odds API from July 2020, ESPN from 2023-24; before that only ESPN's final line. A median of 7 books per NBA game in 2020-21 to 2022-23 and 8 since, per the data page.
+- Per-book opening and closing lines: from July 2020; before that only a final line. A median of 7 books per NBA game in 2020-21 to 2022-23 and 8 since, per the data page.
 - Women's college: from November 2024, a median of 4 books.
 - Check https://dunkapi.com/docs/atlas for coverage by season and league before choosing a window.
 - Opening fields exist for moneylines, spreads and totals, but there is one set of price (juice) fields per book (`spread_home_odds`, `over_odds` and so on), and `captured_at` sits minutes before tip in the rows seen, so treat them as closing prices. If a rule bets the open, assume -110 and say so.
