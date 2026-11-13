@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "dunkapi-skills",
-      "source": "./",
+      "source": "./plugin",
       "description": "16 basketball analytics and betting-model skills"
     }
   ]
