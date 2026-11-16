@@ -124,7 +124,15 @@ node examples/node/quickstart.mjs
 
 See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://dunkapi.com/signup.
 
-## Tools (18)
+## Use it in
+
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.dunkapi.com/mcp` as a remote MCP server. Step-by-step for each: https://dunkapi.com/mcp
+- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/dunkapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Google Sheets:** `=SDHQ("dunkapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets
+- **REST:** `POST https://mcp.dunkapi.com/v1/<tool>` with an `x-api-key` header: https://dunkapi.com/docs
+
+## Tools (24)
 
 | Tool | What it returns |
 |------|-----------------|
@@ -144,8 +152,14 @@ See [`examples/README.md`](examples/README.md) for details. Get a free key (500 
 | `get_plays` | Play-by-play with shot locations, zones, expected points and win probability |
 | `get_shot_chart` | Shot profile by zone for a player, team or defence, with every shot's x/y |
 | `get_line_movement` | Snapshots of each sportsbook's line before tip-off |
-| `get_player_props` | Player prop lines by sportsbook, opening and closing |
+| `get_player_props` | Player prop lines by sportsbook: the closing line (one pre-game capture per line before October 2026) |
 | `get_prop_history` | A player's prop lines against the result, game by game |
+| `get_prop_movement` | How one player's prop line moved before a game, every capture by sportsbook |
+| `get_market_odds` | Opening and closing lines by sportsbook for the half and quarter markets (history from May 2023) |
+| `get_alt_lines` | Alternate spreads and totals by sportsbook: every point on each book's ladder, opening and closing, NBA, WNBA and men's college from 2023-24 |
+| `get_game_probabilities` | What the market thinks of a game: average implied and fair probability for the moneyline, spreads and totals |
+| `get_prop_probabilities` | What the market thinks of a game's player props: average implied and fair probability for each player and line |
+| `get_prop_backtest` | How often a kind of player prop hit against what the market implied, by your filters, since May 2023 |
 
 Leagues: nba (default), wnba, ncaam, ncaaw (pass `league` to any tool).
 
