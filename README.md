@@ -4,7 +4,7 @@
 
 **The basketball data API.** NBA play-by-play with the location of every shot, box scores, win probability, standings, injuries, our own team Elo ratings, sportsbook lines and player prop lines, plus the WNBA and men's and women's Division I college basketball. REST API and MCP server. 500 free credits every month, no card.
 
-Website: https://dunkapi.com · Docs: https://dunkapi.com/docs · Get a key: https://dunkapi.com/signup
+Website: https://dunkapi.com?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp · Docs: https://dunkapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp · Get a key: https://dunkapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
 
 ```
 You:    "What was each sportsbook's closing spread for every Celtics home game in 2023-24?"
@@ -122,7 +122,7 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://dunkapi.com/signup.
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://dunkapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
 
 ## Starter projects
 
@@ -130,11 +130,11 @@ See [`examples/README.md`](examples/README.md) for details. Get a free key (500 
 
 ## Use it in
 
-- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.dunkapi.com/mcp` as a remote MCP server. Step-by-step for each: https://dunkapi.com/mcp
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.dunkapi.com/mcp` as a remote MCP server. Step-by-step for each: https://dunkapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
 - **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/dunkapi-mcp`
 - **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
-- **Google Sheets:** `=SDHQ("dunkapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets
-- **REST:** `POST https://mcp.dunkapi.com/v1/<tool>` with an `x-api-key` header: https://dunkapi.com/docs
+- **Google Sheets:** `=SDHQ("dunkapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- **REST:** `POST https://mcp.dunkapi.com/v1/<tool>` with an `x-api-key` header: https://dunkapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
 
 ## Tools (24)
 
@@ -176,27 +176,27 @@ Leagues: nba (default), wnba, ncaam, ncaaw (pass `league` to any tool).
 - Player prop lines by sportsbook (points, rebounds, assists, threes, points + rebounds + assists, blocks, steals) from May 2023 for the NBA and WNBA and from the 2023-24 season for men's college basketball, with the result against each line (`get_player_props`, `get_prop_history`)
 - Women's college basketball: opening and closing lines from November 2024 (a median of 4 books); no player props
 
-Coverage by season, read live from the database: https://dunkapi.com/docs
+Coverage by season, read live from the database: https://dunkapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
 
 ## Useful pages
 
-- Live odds and lines: https://dunkapi.com/odds
-- Player props today (best price per player across books, live from the 2026-27 opener): https://dunkapi.com/props
-- College basketball player props today (live from the 2026-27 season): https://dunkapi.com/props/college-basketball
-- College props history guides: [points](https://dunkapi.com/guides/college-basketball-points-prop-history-python), [rebounds](https://dunkapi.com/guides/college-basketball-rebounds-prop-history-python)
-- Props guides: [points prop history](https://dunkapi.com/guides/nba-points-prop-history-python), [threes prop history](https://dunkapi.com/guides/nba-threes-prop-history-python)
-- Guides (Python, run against the live API): https://dunkapi.com/guides
-  - [NBA play-by-play](https://dunkapi.com/guides/nba-play-by-play-python), [shot chart by zone](https://dunkapi.com/guides/nba-shot-chart-by-zone-python), [backtest closing lines](https://dunkapi.com/guides/backtest-nba-closing-lines-python), [team pace and efficiency](https://dunkapi.com/guides/nba-pace-and-efficiency-by-team-pandas), [player game log and rolling average](https://dunkapi.com/guides/nba-player-game-log-rolling-average)
-- Docs and endpoint reference: https://dunkapi.com/docs
-- Coverage by season: https://dunkapi.com/docs/atlas
-- Datasets: https://dunkapi.com/data ([play-by-play](https://dunkapi.com/data/nba-play-by-play), [shot charts](https://dunkapi.com/data/nba-shot-chart-data), [odds history](https://dunkapi.com/data/nba-odds-history), [player props](https://dunkapi.com/data/player-props))
-- Pricing: https://dunkapi.com/pricing
-- Comparisons: [BallDontLie](https://dunkapi.com/compare/balldontlie), [nba_api and stats.nba.com](https://dunkapi.com/compare/nba-api-stats-nba), [Basketball Reference](https://dunkapi.com/compare/basketball-reference), [Sportradar](https://dunkapi.com/compare/sportradar), [SportsDataIO](https://dunkapi.com/compare/sportsdataio-nba)
-- Leagues: [WNBA](https://dunkapi.com/wnba), [men's college](https://dunkapi.com/college-basketball), [women's college](https://dunkapi.com/womens-college-basketball)
+- Live odds and lines: https://dunkapi.com/odds?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- Player props today (best price per player across books, live from the 2026-27 opener): https://dunkapi.com/props?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- College basketball player props today (live from the 2026-27 season): https://dunkapi.com/props/college-basketball?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- College props history guides: [points](https://dunkapi.com/guides/college-basketball-points-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [rebounds](https://dunkapi.com/guides/college-basketball-rebounds-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp)
+- Props guides: [points prop history](https://dunkapi.com/guides/nba-points-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [threes prop history](https://dunkapi.com/guides/nba-threes-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp)
+- Guides (Python, run against the live API): https://dunkapi.com/guides?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+  - [NBA play-by-play](https://dunkapi.com/guides/nba-play-by-play-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [shot chart by zone](https://dunkapi.com/guides/nba-shot-chart-by-zone-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [backtest closing lines](https://dunkapi.com/guides/backtest-nba-closing-lines-python?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [team pace and efficiency](https://dunkapi.com/guides/nba-pace-and-efficiency-by-team-pandas?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [player game log and rolling average](https://dunkapi.com/guides/nba-player-game-log-rolling-average?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp)
+- Docs and endpoint reference: https://dunkapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- Coverage by season: https://dunkapi.com/docs/atlas?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- Datasets: https://dunkapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp ([play-by-play](https://dunkapi.com/data/nba-play-by-play?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [shot charts](https://dunkapi.com/data/nba-shot-chart-data?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [odds history](https://dunkapi.com/data/nba-odds-history?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [player props](https://dunkapi.com/data/player-props?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp))
+- Pricing: https://dunkapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+- Comparisons: [BallDontLie](https://dunkapi.com/compare/balldontlie?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [nba_api and stats.nba.com](https://dunkapi.com/compare/nba-api-stats-nba?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [Basketball Reference](https://dunkapi.com/compare/basketball-reference?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [Sportradar](https://dunkapi.com/compare/sportradar?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [SportsDataIO](https://dunkapi.com/compare/sportsdataio-nba?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp)
+- Leagues: [WNBA](https://dunkapi.com/wnba?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [men's college](https://dunkapi.com/college-basketball?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp), [women's college](https://dunkapi.com/womens-college-basketball?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp)
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://dunkapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://dunkapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
 
 ## Attribution
 
@@ -214,7 +214,7 @@ Add this repo as a Codex plugin marketplace, then install the plugin:
 codex plugin marketplace add noahowsh/dunkapi-mcp
 ```
 
-Then open the plugin directory in Codex and install `dunkapi-skills` from the `dunkapi` marketplace. The plugin bundles the skills in `skills/` and the DunkAPI MCP server (https://mcp.dunkapi.com/mcp). Set your key first (free at https://dunkapi.com/signup):
+Then open the plugin directory in Codex and install `dunkapi-skills` from the `dunkapi` marketplace. The plugin bundles the skills in `skills/` and the DunkAPI MCP server (https://mcp.dunkapi.com/mcp). Set your key first (free at https://dunkapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp):
 
 ```bash
 export DUNKAPI_API_KEY=your_key
@@ -229,4 +229,4 @@ export DUNKAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/dunkapi-mcp
 ```
 
-The extension adds the DunkAPI MCP server (https://mcp.dunkapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://dunkapi.com/signup.
+The extension adds the DunkAPI MCP server (https://mcp.dunkapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://dunkapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
