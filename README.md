@@ -124,6 +124,10 @@ node examples/node/quickstart.mjs
 
 See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://dunkapi.com/signup.
 
+## Starter projects
+
+- [nba-props-backtest](https://github.com/noahowsh/nba-props-backtest): grade NBA player props against the closing line, per player or league-wide, in one Python script.
+
 ## Use it in
 
 - **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.dunkapi.com/mcp` as a remote MCP server. Step-by-step for each: https://dunkapi.com/mcp
