@@ -122,7 +122,7 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://dunkapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://dunkapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp.
 
 ## Starter projects
 
@@ -229,4 +229,4 @@ export DUNKAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/dunkapi-mcp
 ```
 
-The extension adds the DunkAPI MCP server (https://mcp.dunkapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://dunkapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp
+The extension adds the DunkAPI MCP server (https://mcp.dunkapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://dunkapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=dunkapi-mcp.
